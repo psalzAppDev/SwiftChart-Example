@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import PSSwiftChart
 
-class StockChartViewController: UIViewController {
-
+class StockChartViewController: UIViewController, ChartDelegate
+{
+    @IBOutlet weak var chart: Chart!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
