@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		7E4C9C06152D9F0266C79F30 /* libPods-SwiftChart-Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186EC241C1540D0F9B8464AE /* libPods-SwiftChart-Example.a */; };
 		D058D5992309E10C00B30641 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058D5982309E10C00B30641 /* AppDelegate.swift */; };
-		D058D59D2309E10C00B30641 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058D59C2309E10C00B30641 /* ViewController.swift */; };
 		D058D5A02309E10C00B30641 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D058D59E2309E10C00B30641 /* Main.storyboard */; };
 		D058D5A22309E10D00B30641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D058D5A12309E10D00B30641 /* Assets.xcassets */; };
 		D058D5A52309E10D00B30641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D058D5A32309E10D00B30641 /* LaunchScreen.storyboard */; };
+		D058D5AE2309E28500B30641 /* AAPL.json in Resources */ = {isa = PBXBuildFile; fileRef = D058D5AD2309E28500B30641 /* AAPL.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		8D627AD3A2A81715434226F1 /* Pods-SwiftChart-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftChart-Example.release.xcconfig"; path = "Target Support Files/Pods-SwiftChart-Example/Pods-SwiftChart-Example.release.xcconfig"; sourceTree = "<group>"; };
 		D058D5952309E10C00B30641 /* SwiftChart-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftChart-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D058D5982309E10C00B30641 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D058D59C2309E10C00B30641 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D058D59F2309E10C00B30641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D058D5A12309E10D00B30641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D058D5A42309E10D00B30641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D058D5A62309E10D00B30641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D058D5AD2309E28500B30641 /* AAPL.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AAPL.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,14 +69,30 @@
 		D058D5972309E10C00B30641 /* SwiftChart-Example */ = {
 			isa = PBXGroup;
 			children = (
-				D058D5982309E10C00B30641 /* AppDelegate.swift */,
-				D058D59C2309E10C00B30641 /* ViewController.swift */,
-				D058D59E2309E10C00B30641 /* Main.storyboard */,
 				D058D5A12309E10D00B30641 /* Assets.xcassets */,
+				D058D5982309E10C00B30641 /* AppDelegate.swift */,
+				D058D59E2309E10C00B30641 /* Main.storyboard */,
 				D058D5A32309E10D00B30641 /* LaunchScreen.storyboard */,
-				D058D5A62309E10D00B30641 /* Info.plist */,
+				D058D5AC2309E25E00B30641 /* Supporting Files */,
+				D058D5AF2309E29700B30641 /* View Controllers */,
 			);
 			path = "SwiftChart-Example";
+			sourceTree = "<group>";
+		};
+		D058D5AC2309E25E00B30641 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D058D5A62309E10D00B30641 /* Info.plist */,
+				D058D5AD2309E28500B30641 /* AAPL.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D058D5AF2309E29700B30641 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 		F1A13A16BA041F2614CE1059 /* Pods */ = {
@@ -85,7 +101,6 @@
 				5BA949907CC6EF227E1CAC73 /* Pods-SwiftChart-Example.debug.xcconfig */,
 				8D627AD3A2A81715434226F1 /* Pods-SwiftChart-Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -151,6 +166,7 @@
 				D058D5A52309E10D00B30641 /* LaunchScreen.storyboard in Resources */,
 				D058D5A22309E10D00B30641 /* Assets.xcassets in Resources */,
 				D058D5A02309E10C00B30641 /* Main.storyboard in Resources */,
+				D058D5AE2309E28500B30641 /* AAPL.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +202,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D058D59D2309E10C00B30641 /* ViewController.swift in Sources */,
 				D058D5992309E10C00B30641 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
