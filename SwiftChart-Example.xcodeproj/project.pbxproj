@@ -13,6 +13,9 @@
 		D058D5A22309E10D00B30641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D058D5A12309E10D00B30641 /* Assets.xcassets */; };
 		D058D5A52309E10D00B30641 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D058D5A32309E10D00B30641 /* LaunchScreen.storyboard */; };
 		D058D5AE2309E28500B30641 /* AAPL.json in Resources */ = {isa = PBXBuildFile; fileRef = D058D5AD2309E28500B30641 /* AAPL.json */; };
+		D058D5B12309E33100B30641 /* BasicChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058D5B02309E33100B30641 /* BasicChartViewController.swift */; };
+		D058D5B32309E34100B30641 /* StockChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058D5B22309E34100B30641 /* StockChartViewController.swift */; };
+		D058D5B52309E34D00B30641 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D058D5B42309E34D00B30641 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		D058D5A42309E10D00B30641 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D058D5A62309E10D00B30641 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D058D5AD2309E28500B30641 /* AAPL.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AAPL.json; sourceTree = "<group>"; };
+		D058D5B02309E33100B30641 /* BasicChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicChartViewController.swift; sourceTree = "<group>"; };
+		D058D5B22309E34100B30641 /* StockChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartViewController.swift; sourceTree = "<group>"; };
+		D058D5B42309E34D00B30641 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,9 @@
 		D058D5AF2309E29700B30641 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D058D5B02309E33100B30641 /* BasicChartViewController.swift */,
+				D058D5B22309E34100B30641 /* StockChartViewController.swift */,
+				D058D5B42309E34D00B30641 /* TableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -202,7 +211,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D058D5B12309E33100B30641 /* BasicChartViewController.swift in Sources */,
+				D058D5B32309E34100B30641 /* StockChartViewController.swift in Sources */,
 				D058D5992309E10C00B30641 /* AppDelegate.swift in Sources */,
+				D058D5B52309E34D00B30641 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
