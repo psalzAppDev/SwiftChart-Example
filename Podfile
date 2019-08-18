@@ -9,6 +9,6 @@ target 'SwiftChart-Example' do
   #use_frameworks!
 
   # Pods for SwiftChart-Example
-  pod 'PSSwiftChart', '~> 1.0.1'
+  pod 'PSSwiftChart', '~> 1.0.2'
 
 end
