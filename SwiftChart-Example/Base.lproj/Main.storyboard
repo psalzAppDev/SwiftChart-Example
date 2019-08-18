@@ -209,6 +209,8 @@
                     </view>
                     <connections>
                         <outlet property="chart" destination="kFO-uD-gQL" id="jbd-66-va2"/>
+                        <outlet property="label" destination="adR-9L-3Wc" id="eSQ-6Z-iPo"/>
+                        <outlet property="labelLeadingMarginConstraint" destination="ZiM-hZ-4TQ" id="PN7-TN-uK4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EFZ-nD-XCB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

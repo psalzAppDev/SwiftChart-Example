@@ -9,9 +9,13 @@
 import UIKit
 import PSSwiftChart
 
-class StockChartViewController: UIViewController, ChartDelegate
+class StockChartViewController: UIViewController
 {
     @IBOutlet weak var chart: Chart!
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var labelLeadingMarginConstraint: NSLayoutConstraint!
+    
+    var selectedChart = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,4 +34,9 @@ class StockChartViewController: UIViewController, ChartDelegate
     }
     */
 
+}
+
+extension StockChartViewController: ChartDelegate {
+    
+    
 }
