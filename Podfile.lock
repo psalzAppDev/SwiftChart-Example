@@ -1,0 +1,16 @@
+PODS:
+  - PSSwiftChart (1.0.2)
+
+DEPENDENCIES:
+  - PSSwiftChart (~> 1.0.2)
+
+SPEC REPOS:
+  https://github.com/psalzAppDev/PSPodSpecs.git:
+    - PSSwiftChart
+
+SPEC CHECKSUMS:
+  PSSwiftChart: 0e08f45f0d7130bf49d37fd4f0f78f40ef51c1bb
+
+PODFILE CHECKSUM: 2b9f9fd1627e91b3645c6e198bc748ff4635bccf
+
+COCOAPODS: 1.8.4
